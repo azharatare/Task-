@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body style="display: flex; justify-content:center ; align-items: center;height: 100vh;overflow: hidden;">
+    <div class="container">
+      <form name="form1" class="box" [formGroup]="signUpForm">
+        <h4><span>Hello There !</span></h4>
+        <h5>We're almost done. Before using our service
+            you need to create  an account</h5>
+        <input type="text" placeholder="Email Address" formControlName="email" />
+        <input type="password" placeholder="Password" formControlName="password" />
+        <button class="btn1" type="submit" (click)="onSubmit()">Create Account</button>
+        <br>
+        <br>
+        <span>Already have a account? <a href="/login" class="dnthave">Log In</a></span>
+      </form>
+    </div>
+</body>
+</html>

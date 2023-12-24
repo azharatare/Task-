@@ -1,0 +1,211 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "azharatare@gmail.com",
+      "password": "1233",
+      "id": 1
+    },
+    {
+      "email": "azharatare123@gmail.com",
+      "password": "1111",
+      "id": 2
+    },
+    {
+      "email": "azharatare1111@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "azharatare14441@gmail.com",
+      "password": "1425",
+      "id": 4
+    },
+    {
+      "email": "azharatare12345@gmail.com",
+      "password": "1414",
+      "id": 5
+    },
+    {
+      "email": "azhar12@gmail.com",
+      "password": "1236",
+      "id": 6
+    },
+    {
+      "email": "zahra@gmail.com",
+      "password": "111",
+      "id": 7
+    },
+    {
+      "email": "azharata@gmail.com",
+      "password": "12321",
+      "id": 8
+    },
+    {
+      "email": "qaws@gmail.com",
+      "password": "1478",
+      "id": 9
+    },
+    {
+      "email": "ew@gmail.com",
+      "password": "132",
+      "id": 10
+    },
+    {
+      "email": "qwz@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "email": "rt@gmail.com",
+      "password": "145",
+      "id": 12
+    },
+    {
+      "email": "azhar5555@gmail.com",
+      "password": "145698",
+      "id": 13
+    },
+    {
+      "email": "yuyu@gmail.com",
+      "password": "3636",
+      "id": 14
+    },
+    {
+      "email": "oio@gmail.com",
+      "password": "369",
+      "id": 15
+    },
+    {
+      "email": "po@gmail.com",
+      "password": "142",
+      "id": 16
+    },
+    {
+      "email": "oiii@gmail.com",
+      "password": "4747",
+      "id": 17
+    },
+    {
+      "email": "ty@gmail.com",
+      "password": "4747",
+      "id": 18
+    },
+    {
+      "email": "yuyu@gmail.com",
+      "password": "458",
+      "id": 19
+    },
+    {
+      "email": "try88@gmail.com",
+      "password": "123",
+      "id": 20
+    },
+    {
+      "email": "try88@gmail.com",
+      "password": "123",
+      "id": 21
+    },
+    {
+      "email": "trr@gmail.com",
+      "password": "147",
+      "id": 22
+    },
+    {
+      "email": "ooo@gmail.com",
+      "password": "5858",
+      "id": 23
+    },
+    {
+      "email": "aiu@gmail.com",
+      "password": "45",
+      "id": 24
+    },
+    {
+      "email": "azharatraeddd@gmail.com",
+      "password": "456",
+      "id": 25
+    },
+    {
+      "email": "azharatrareddd@gmail.com",
+      "password": "456",
+      "id": 26
+    },
+    {
+      "email": "azheeeeeearatrareddd@gmail.com",
+      "password": "456",
+      "id": 27
+    },
+    {
+      "email": "azharatare999@gmail.com",
+      "password": "145",
+      "id": 28
+    },
+    {
+      "email": "az@gmail.com",
+      "password": "52",
+      "id": 29
+    },
+    {
+      "email": "azharatare9999oo@gmail.com",
+      "password": "12",
+      "id": 30
+    },
+    {
+      "email": "azharata6666re9999oo@gmail.com",
+      "password": "12",
+      "id": 31
+    },
+    {
+      "email": "asematare1999@gmail.com",
+      "password": "123",
+      "id": 32
+    },
+    {
+      "email": "asem@gmail.com",
+      "password": "123",
+      "id": 33
+    },
+    {
+      "email": "iooo@gmail.com",
+      "password": "159",
+      "id": 34
+    },
+    {
+      "email": "iooo@gmail.com",
+      "password": "159",
+      "id": 35
+    },
+    {
+      "email": "iooo@gmail.com",
+      "password": "159",
+      "id": 36
+    },
+    {
+      "email": "iooo999@gmail.com",
+      "password": "563",
+      "id": 37
+    },
+    {
+      "email": "iooo999@gmail.com",
+      "password": "563",
+      "id": 38
+    }
+  ]
+}

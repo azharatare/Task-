@@ -1,0 +1,67 @@
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<div> 
+  <a routerLink="/products/add" class="btn btn-primary btn-xs"><b>+</b> Add new categories</a>
+  <div class="custyle">
+  <div class="container">
+    <table class="table table-striped custab">
+    <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name </th>
+          <th>Color</th>
+          <th>Capacity</th>
+          <th>Price</th>
+          <th>Generation </th>
+          <th>Year</th>
+          <th>HardDisk Size</th>
+          <th>Strap Color</th>
+          <th>Case Size</th>
+          <th>Description</th>
+          <th>Screen Size</th>
+          <th>Capacity GB</th>
+          <th>CPU model</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products$ | async">
+        <td>{{product.id}}</td>
+        <td>{{product.name }}</td>
+        <ng-template [ngIf]="product.data == null" [ngIfElse]="elseBlock">
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>N/A</td>
+        </ng-template>
+        <ng-template #elseBlock>
+        <td *ngIf="product.data?.color !== null; else nullTemplate">{{product.data.color || 'N/A'}}</td>
+        <td *ngIf="product.data?.capacity !== null; else nullTemplate">{{product.data.capacity || 'N/A'}}</td>
+        <td *ngIf="product.data?.price !== null; else nullTemplate">{{product.data.price || 'N/A'}}</td>
+        <td *ngIf="product.data?.Generation !== null; else nullTemplate">{{product.data.Generation || 'N/A'}}</td>
+        <td *ngIf="product.data?.year !== null; else nullTemplate">{{product.data.year || 'N/A'}}</td>
+        <td *ngIf="product.data && product.data['Hard disk size'] !== null; else nullTemplate">{{product.data['Hard disk size'] || 'N/A'}}</td>
+        <td *ngIf="product.data && product.data['Strap Colour'] !== null; else nullTemplate">{{product.data['Strap Colour'] || 'N/A'}}</td>
+        <td *ngIf="product.data && product.data['Case Size'] !== null; else nullTemplate">{{product.data['Case Size'] || 'N/A' }}</td>
+        <td *ngIf="product.data?.Description !== null; else nullTemplate">{{product.data.Description || 'N/A' }}</td>
+        <td *ngIf="product.data && product.data['Screen size'] !== null; else nullTemplate">{{product.data['Screen size']|| 'N/A'}}</td>
+        <td *ngIf="product.data && product.data['capacity GB'] !== null !== null; else nullTemplate">{{product.data['capacity GB'] || 'N/A'}}</td>
+        <td *ngIf="product.data && product.data['CPU model'] !== null; else nullTemplate">{{product.data['CPU model'] || 'N/A'}}</td>
+      </ng-template>
+      </tr> 
+    </tbody>  
+    </table>
+  </div>
+</div>
+
+ 

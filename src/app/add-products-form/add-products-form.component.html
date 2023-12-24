@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <div class="container">
+    <div class="title">Add Product</div>
+    <div class="content">
+      <form [formGroup]="addProductForm">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input type="text" placeholder="Enter your name" formControlName="name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Color</span>
+            <input type="text" formControlName="color" placeholder="Enter your color" >
+          </div>
+          <div class="input-box">
+            <span class="details">Capacity</span>
+            <input type="text" formControlName="capacity" placeholder="Enter your capacity" >
+          </div>
+          <div class="input-box">
+            <span class="details">Price</span>
+            <input type="number" formControlName="price" placeholder="Enter your price" >
+          </div>
+          <div class="input-box">
+            <span class="details">Generation</span>
+            <input type="text" formControlName="generation" placeholder="Enter your Generation">
+          </div>
+          <div class="input-box">
+            <span class="details">Year</span>
+            <input type="number" formControlName="year" placeholder="YYYY">
+          </div>
+          <div class="input-box">
+            <span class="details">HardDisk Size</span>
+            <input type="text" formControlName="hardDiskSize" placeholder="Enter your hardDisk size" >
+          </div>
+          <div class="input-box">
+            <span class="details">Strap Color</span>
+            <input type="text" formControlName="strapColor" placeholder="Enter your strap color">
+          </div>
+          <div class="input-box">
+            <span class="details">Case Size</span>
+            <input type="text" formControlName="caseSize" placeholder="Enter your Case Size">
+          </div>
+          <div class="input-box">
+            <span class="details">Description</span>
+            <input type="text" formControlName="description" placeholder="Enter your description">
+          </div>
+          <div class="input-box">
+            <span class="details">Screen Size</span>
+            <input type="text" formControlName="screenSize" placeholder="Enter your screen size">
+          </div>
+          <div class="input-box">
+            <span class="details">Capacity GB</span>
+            <input type="text" formControlName="capacityGB" placeholder="Enter your capacity GB">
+          </div>
+          <div class="input-box">
+            <span class="details">CPU model</span>
+            <input type="text" formControlName="cpyModel" placeholder="Enter your Cpu Model">
+          </div>
+        </div>
+        <button class="button" (click)="addProduct()">Add</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body style="display: flex; justify-content:center ; align-items: center;height: 100vh;overflow: hidden;">
+    <div class="container">
+      <form name="form1" class="box" [formGroup]="loginForm">
+        <h4><span>Welcome</span></h4>
+        <h5>Sign in to your account.</h5>
+        <input type="text" name="email" placeholder="Email" formControlName="email" />
+        <input type="password" name="password" placeholder="password" formControlName="password"/>
+        <button class="btn1" (click)="login()">Sign In</button>
+        <br>
+        <br>
+        <span>Don’t have an account? <a href="/signup" class="dnthave">Sign up</a></span>
+      </form>
+    </div>
+</body>
+</html>

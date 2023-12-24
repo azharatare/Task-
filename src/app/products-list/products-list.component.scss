@@ -1,0 +1,36 @@
+
+.container{
+  display: flex;
+  justify-content:center;
+  height: 90vh;
+  overflow: hidden;
+  height: 850px; 
+  width:1344px;
+}
+a{
+margin-left: 1180px;
+margin-top: 20px;
+}
+thead{
+  justify-content: center;
+}
+th, tr {
+  flex: 3;
+  padding: 8px;
+  text-align: center;
+}
+.custab{
+  font-family: "Source Sans Pro", sans-serif;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin: 2% ;
+  box-shadow: 3px 3px 2px #688d89;
+  transition: 0.5s;
+  overflow-y: auto;
+  height: 200px;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+  }
